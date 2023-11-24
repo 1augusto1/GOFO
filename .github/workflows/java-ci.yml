@@ -18,6 +18,6 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Build with Ant
-      run: ant -f Implementation/build.xml compile
+      run: ant -f GOFO/GOFO Implementation/build.xml compile
     - name: Run Tests
-      run: ant -f Implementation/build.xml test
+      run: ant -f GOFO/GOFO Implementation/build.xml test
